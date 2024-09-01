@@ -36,7 +36,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
     NavGraph(navController = navController)
 }
 
-@Preview(showBackground = true)
+@Preview(name = "Landscape", device = "spec:shape=Normal,width=640,height=360,unit=dp,dpi=480")
 @Composable
 fun GreetingPreview() {
     ComposeTheme {
